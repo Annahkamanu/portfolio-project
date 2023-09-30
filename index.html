@@ -34,85 +34,105 @@
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Ann Kamanu</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-9 col-sm-12">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"
+                ><img src="/images/logo.png" class="logo" alt="logo"
+              /></a>
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div class="col-md-3 col-sm-12">
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                  <a class="nav-link" href="/about.html">About me</a>
+                  <a class="nav-link" href="/work.html">My projects</a>
+                  <a class="nav-link" href="/contact-me.html">Contact me</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="hero">
+        <p>Hi, I am</p>
+        <h1>Ann Kamanu</h1>
+        <h2 class="mb-5">Front-end developer based in Kenya</h2>
+        <a href="/contact-me.html#contact" class="btn btn-branding">
+          Contact me</a
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html"
-              >Home</a
+      </div>
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-6">
+            <h2 class="text-start mb-3">Tourism app</h2>
+            <p class="text-start">
+              The idea of this project was to build like a blog site for masai
+              mara to encourage tourists to visit the place. Masai Mara is a
+              national park based in Kenya with a beautiful scenery not to
+              mention the wild animals. Don't mind the length of the page, it
+              was my first ever project as a front-end developer but it might be
+              helpful to someone who would want to tour kenya.
+            </p>
+            <br />
+            <br />
+            <a
+              href="https://effortless-frangipane-e37651.netlify.app/"
+              class="primary-link"
+              >Launch Tourism APP</a
             >
-            <a class="nav-link" href="/about.html">About me</a>
-            <a class="nav-link" href="/work.html">My projects</a>
-            <a class="nav-link" href="/contact-me.html">Contact me</a>
+          </div>
+          <div class="col-6 p-5">
+            <img
+              src="/images/Masai Mara.png"
+              class="img-fluid shadow rounded"
+            />
           </div>
         </div>
-      </div>
-    </nav>
-    <div class="hero">
-      <p>Hi, I am</p>
-      <h1>Ann Kamanu</h1>
-      <h2 class="mb-5">Front-end developer based in Kenya</h2>
-      <a href="/contact-me.html#contact" class="btn btn-branding">
-        Contact me</a
-      >
-    </div>
-    <div class="container">
-      <div class="row mt-5">
-        <div class="col-6">
-          <h2 class="text-start mb-3">Tourism app</h2>
-          <p class="text-start">
-            The idea of this project was to build like a blog site for masai
-            mara to encourage tourists to visit the place. Masai Mara is a
-            national park based in Kenya with a beautiful scenery not to mention
-            the wild animals. Don't mind the length of the page, it was my first
-            ever project as a front-end developer but it might be helpful to
-            someone who would want to tour kenya.
-          </p>
-          <br />
-          <br />
-          <a
-            href="https://effortless-frangipane-e37651.netlify.app/"
-            class="primary-link"
-            >Launch Tourism APP</a
-          >
-        </div>
-        <div class="col-6 p-5">
-          <img src="/images/Masai Mara.png" class="img-fluid shadow rounded" />
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-6 p-5">
-          <img src="/images/Weather app.png" class="img-fluid shadow rounded" />
-        </div>
-        <div class="col-6">
-          <h2 class="text-start mb-3">Weather app</h2>
-          <p class="text-start">
-            This was my second project as a developer. The idea was to build a
-            weather web app intergrating API from OpenWeather so as users can
-            search the current weather of any city around the world. The app
-            also includes forecasts and proper icons for each forecast. Building
-            this was exciting and it also tested my understanding and knowledge
-            of javaScript.
-          </p>
-          <br />
-          <br />
-          <a
-            href="https://shiny-kangaroo-b61b5a.netlify.app/"
-            class="primary-link"
-            >Launch weather APP</a
-          >
+        <div class="row mt-5">
+          <div class="col-6 p-5">
+            <img
+              src="/images/Weather app.png"
+              class="img-fluid shadow rounded"
+            />
+          </div>
+          <div class="col-6">
+            <h2 class="text-start mb-3">Weather app</h2>
+            <p class="text-start">
+              This was my second project as a developer. The idea was to build a
+              weather web app intergrating API from OpenWeather so as users can
+              search the current weather of any city around the world. The app
+              also includes forecasts and proper icons for each forecast.
+              Building this was exciting and it also tested my understanding and
+              knowledge of javaScript.
+            </p>
+            <br />
+            <br />
+            <a
+              href="https://shiny-kangaroo-b61b5a.netlify.app/"
+              class="primary-link"
+              >Launch weather APP</a
+            >
+          </div>
         </div>
       </div>
     </div>

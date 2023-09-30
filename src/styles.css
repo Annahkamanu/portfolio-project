@@ -128,6 +128,15 @@ p {
   background: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
+  margin-top: 150px;
+}
+.me {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 100px 20px;
+}
+.picture {
+  width: 100%;
 }
 .hero p {
   font-size: 36px;
@@ -149,6 +158,13 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.logo {
+  height: 248px;
+  width: 348px;
+}
+.about {
+  margin-top: 150px;
+}
 
 @media (max-width: 750px) {
   .primary-link {
@@ -168,5 +184,10 @@ p {
   }
   h2 {
     font-size: 30px;
+  }
+}
+@media (max-width: 300px) {
+  .email-link {
+    font-size: 20px;
   }
 }
