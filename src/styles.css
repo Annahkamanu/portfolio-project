@@ -106,7 +106,7 @@ body {
 }
 
 body {
-  font-family: var(--default-font-family);
+  font-family: var(--default-font-family) !important;
 }
 h1,
 h2,
@@ -165,6 +165,7 @@ p {
   margin-top: 150px;
 }
 .active {
+  color: #6c63ff !important;
   text-decoration: underline;
 }
 
