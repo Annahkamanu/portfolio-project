@@ -159,11 +159,13 @@ p {
   padding: 15px 30px;
 }
 .logo {
-  height: 248px;
-  width: 348px;
+  max-width: 200px;
 }
 .about {
   margin-top: 150px;
+}
+.active {
+  text-decoration: underline;
 }
 
 @media (max-width: 750px) {
