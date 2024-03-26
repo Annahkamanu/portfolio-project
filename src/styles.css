@@ -47,6 +47,10 @@ p {
 body {
   margin-top: 100px;
 }
+.shot {
+  max-width: 100%;
+  min-height: 400px;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
